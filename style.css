@@ -55,6 +55,16 @@ p {
     font-size: 18px;
 }
 
+.intro button{
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    padding: 8px 25px;
+    margin: 15px 0px;
+}
+
 .intro_rs {
     color: white;
 }
@@ -62,10 +72,14 @@ p {
 /*  */
 
 .random_info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     min-height: 100vh;
-    font-size: 36px;
+    font-size: 24px;
     color: #1F2937;
     font-weight: 900;
+    margin: 20px;
 }
 
 .images {
@@ -74,6 +88,18 @@ p {
     font-weight: normal;
 }
 
+.images img{
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+}
+
+/*  */
+.quote  {
+    color: red;
+    margin: 50px 0px;
+    padding: 10px;
+    background-color: grey;
+}
 
 /*  */
 .footer {
