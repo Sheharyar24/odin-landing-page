@@ -31,6 +31,12 @@
     color: #E5E7EB;
 }
 
+.rs ul a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
 /*  */
 .intro {
     padding: 75px 40px;
@@ -77,6 +83,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.intro img {
+    max-width: 450px;
 }
 
 /*  */
@@ -135,19 +145,49 @@
     font-weight: lighter;
     font-style: italic;
     color: #1F2937;
-    padding: 50px 200px;
 }
 
 .quote .author {
     text-align: right;
     font-weight: bold;
-    padding: 0px 200px;
+    padding: 0px 40px;
 }
+
+/*  */
+.cta {
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-container {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 80px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.cta-container button {
+    background-color: transparent;
+    padding: 10px 30px;
+    font-weight: bold;
+    color: white;
+    border: solid 2px white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
 /*  */
 .footer {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: #1F2937;
-    font-size: 14px;
-    padding: 40px;
+    color: white;
+    font-size: 18px;
+    padding: 45px;
 }
